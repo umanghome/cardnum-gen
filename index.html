@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Generate Card Numbers</title>
+  <meta name="description" content="Tool to generate valid card numbers.">
+  <meta name="keywords" content="generate, valid, credit, debit, card, numbers">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Generate Card Numbers</h1>
+    <h3>Generate valid card numbers by providing any number of leading digits</h3>
+    <div class="forms">
+      <form action="#" method="POST">
+        <label for="leading">Leading digits:</label>
+        <input type="text" placeholder="424242" name="leading" id="leading">
+
+        <label for="length">Length:</label>
+        <input type="number" placeholder="16" value="16" name="length" id="length">
+
+        <button>Generate</button>
+      </form>
+      <pre id="number">Generated card number will be shown here</pre>
+    </div>
+    <div class="footer">
+      <p>Made by <a href="https://umanggalaiya.in">Umang</a>.</p>
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
